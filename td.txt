@@ -1,0 +1,5 @@
+As a Customer
+	I want to be able to ask for new card if mine is borken from the ATM
+	So that card extraction may be easeir and more effective if the card was lost or broken and all the paper work be done on the ATM and using elctronic governmental papers may reduce the stacking and time wasting in redlines
+	Acceptance Criteria –
+		- Identfying every person using his fingerprint or eyeprint as a signture
