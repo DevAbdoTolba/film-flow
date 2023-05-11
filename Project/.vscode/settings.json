@@ -1,0 +1,17 @@
+{
+	"java.project.sourcePaths": [
+		"src"
+	],
+	"java.project.outputPath": "bin",
+	"java.project.referencedLibraries": [
+		"lib/**/*.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.base.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.controls.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.fxml.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.graphics.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.media.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.swing.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx.web.jar",
+		"d:/Tolba/JAVAFX/LayoutSample Dr Shady/lib/javafx-swt.ja"
+	]
+}
