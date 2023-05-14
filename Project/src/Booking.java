@@ -284,12 +284,43 @@ public class Booking extends Application {
         // Set up the details pane with film information
         Label detailsHeadingLabel = new Label("Details");
         detailsHeadingLabel.setFont(Font.font("Arial", FontWeight.BOLD, 18));
-        Label directorLabel = new Label("Director : " + director);
-        Label writerLabel = new Label("Writers : " + writers);
-        Label starsLabel = new Label("Stars : " + stars);
-        Label genreLabel = new Label("Geners :" + genres);
+
+        Label directorLabel = new Label();
+        Text directorText = new Text("Director: ");
+        Text dieText = new Text(director);
+        directorText.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        directorLabel.setGraphic(new HBox(directorText, dieText));
+
+        Label writerLabel = new Label();
+        Text writerText = new Text("Writer: ");
+        Text wriText = new Text(writers);
+        writerText.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        writerLabel.setGraphic(new HBox(writerText, wriText));
+
+        Label starsLabel = new Label();
+        starsLabel.setFont(Font.font("Arial", FontWeight.NORMAL, 14));
+        Text starText = new Text("Star: ");
+        Text stText = new Text(stars);
+        starText.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        starsLabel.setGraphic(new HBox(starText, stText));
+
+        //Label genreLabel = new Label("Geners :" + genres);
+        Label genreLabel = new Label();
+        Text generText = new Text("Geners:");
+        Text gnText = new Text(genres);
+        generText.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        genreLabel.setGraphic(new HBox(generText, gnText));
+
+
+
+
+
+
+
+
         Label releaseDateLabel = new Label("Release Date : " + releaseDate);
         Label runtimeLabel = new Label("Run Time : " + runtime);
+        
         VBox detailsPane = new VBox(10, detailsHeadingLabel, directorLabel, writerLabel, starsLabel, genreLabel,
                 releaseDateLabel, runtimeLabel);
         detailsPane.setPadding(new Insets(10));
